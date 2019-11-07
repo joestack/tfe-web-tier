@@ -45,7 +45,7 @@ resource "aws_vpc" "hashicorp_vpc" {
   enable_dns_hostnames = "true"
 
   tags {
-    Name        = "${var.name}-vpc"
+    Name        = "${var.name}-vpc-aws"
     TTL         = "${var.ttl}"
     Owner       = "${var.owner}"
   }
